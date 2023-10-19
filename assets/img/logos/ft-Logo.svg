@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1050px" height="360px" viewBox="0 0 1050 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal">
+        <g id="Group" transform="translate(4.000000, 0.000000)" fill="#FFFFFF">
+            <text id="Angel’s-Lashes" font-family="DancingScript, Dancing Script" font-size="200">
+                <tspan x="0" y="184">Angel’s Lashes</tspan>
+            </text>
+            <text id="Professional-Lash-St" font-family="Times-Roman, Times" font-size="70">
+                <tspan x="161" y="305">Professional</tspan>
+                <tspan x="507.069336" y="305" font-family="GujaratiMT, Gujarati MT"> </tspan>
+                <tspan x="535.0625" y="305">Lash</tspan>
+                <tspan x="671.131836" y="305" font-family="GujaratiMT, Gujarati MT"> </tspan>
+                <tspan x="699.125" y="305">Stylist</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

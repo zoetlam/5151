@@ -1,0 +1,15 @@
+#mainNav{
+    background-color: var(--bs-dark);
+}
+body{
+    margin-top: 95px;
+}
+
+.sv-btn{
+    margin: 20px auto;
+    display: flex;
+}
+
+.sv-btn a{
+    margin: 0 auto;
+}
