@@ -3353,7 +3353,6 @@ textarea.form-control-lg {
   50% { background-color: var(--bs-link-color); -webkit-box-shadow: 0 0 40px #var(--bs-link-color); }
   100% { background-color: var(--bs-link-hover-color); -webkit-box-shadow: 0 0 3px var(--bs-link-hover-color); }
 }
-
  /* End styling button */
  .none-background{
   background-color: var(--bs-highlight-bg);
@@ -6452,7 +6451,7 @@ footer p {
   cursor: pointer;
 }
 .social-network i:hover{
-  color: var(--bs-link-color);
+  color: var(--bs-link-hover-color);
 }
 iframe {
   height: 250px;
