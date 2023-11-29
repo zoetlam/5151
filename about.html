@@ -12,19 +12,19 @@
         <script src="https://kit.fontawesome.com/7798254451.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/appointment.css" rel="stylesheet" />
+        <link href="css/services.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/logos/Logo.svg" alt="..." /></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/img/logos/Logo.svg" alt="AGLE logo" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -42,67 +42,38 @@
                 </div>
             </div>
         </nav>
-        <!-- Booking -->
-        <div class="calendar-container">
-            <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2Brp2PeYYTK3WjtEkgV8kBFrKmDWMcMosDHnyY8p0COQXd4w5Nf2_kMU-2C2PiXffkES8HRBGM?gv=true" style="border: 0" frameborder="0" allowfullscreen></iframe>
-        </div>
-        
-        <!-- Contact-->
-        <section class="page-section none-background" id="contact">
+        <section class="page-section bg-light">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact</h2>
-                    <h3 class="section-subheading text-muted">Get in touch. Your beauty awaits.</h3>
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">Angel's Lashes - Where Your Beauty Is Enhanced!</h3>
                 </div>
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <p>Hello everyone, I'm <span class="highlight ">Vivian</span>. I recently moved to the charming city of Granger after getting married. </p> 
+                        <p>With the support of my husband, I opened Angel’s Lashes. I would like to express my gratitude to my real-life angels who have supported me in my career — my dearly parents, God mother Linda, best friend Kim, and my husband's family. </p>
+                        <p> I stumbled into the lash profession by chance when seeing my God mother doing eyelash extensions for her client. Wow, what a magic! Her client had undergone a complete transformation, very attractive and lively appearance. Yes! From that moment, I wanted to learn to make people pretty, and it turned into a passion. I constantly update and improve my skills through classes and working with peers. Even in my dreams, I find myself doing lashes for clients.</p>
+                        <p>I love my job and  therefore  my motto is to always strive for perfection in the interest of my cherished clients. My work’s principles are: </p>
+                        <strong><ul>
+                            <li>&emsp;Passion for the profession, aiming to bring beauty to customers</li>
+                            <li>&emsp;Patience in always listening to opinions</li>
+                            <li>&emsp;Protection for customers’ natural eyelashes through proper techniques and experience, as well as the use of sanitized and quality products.</li>
+                        </ul></strong>
+                        <p>Once again, from the bottom of my heart, I am so grateful to my angels for your love as well as your encouragement.  Also, thanks to all the wonderful customers who have trusted and chosen Angel’s Lashes. Your satisfaction is always my goal.</p>
+                        <p>Sincerely ❤️</p>
                     </div>
-                    <!-- Submit success message-->
+                </div>
                     
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
+                
             </div>
+
         </section>
         <!-- Footer-->
         
-        <footer id ="footer">
+        <footer id="footer">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start text-sm-center" >
+                    <div class="col-lg-4 text-lg-start text-center" >
                         <div class="logo align-content-center">
                             <a href="#page-top"><img src="assets/img/logos/ft-Logo.svg" alt="..." /></a>
                         </div>
@@ -116,7 +87,7 @@
                             <i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div class="col-lg-4 text-lg-start text-sm-center">
+                    <div class="col-lg-4 text-lg-start text-center">
                         <ul>
                             <li>Monday 10:00 am - 6:00 pm</li>
                             <li>Tuesday 10:00 am - 6:00 pm</li>

@@ -11,6 +11,9 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://kit.fontawesome.com/7798254451.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
@@ -28,10 +31,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" id="nav-sv" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" id="nav-app" href="#schedule">Schedule</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="appointment.html">Schedule</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Q&A.html">Q&A</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="policy.html">Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,11 +45,35 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Hello and a warm welcome to our beauty salon!</div>
-                <div class="masthead-heading text-uppercase">Nice To Meet You</div>
-                <a class="btn btn1 btn-secondary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <div class="masthead-subheading">Welcome to Angel’s Lashes!</div>
+                <div class="masthead-heading text-uppercase text-effect">$30 OFF for first new set</div>
+                <div class="masthead-subheading">Your Eyes Are The Window To Your Soul</div>
+                <a class="btn btn1 btn-secondary btn-xl text-uppercase" href="#services">Make an Appointment</a>
             </div>
         </header>
+        <!-- About-->
+        <section class="page-section bg-light" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About Us</h2>
+                    <h3 class="section-subheading text-muted">Angel's Lashes - Where Your Beauty Is Enhanced!</h3>
+                    
+                </div>
+                <div class="row ab-description align-items-center">
+                    <div class="col-lg-5 ab-img">
+                        <img src="assets/img/about/tool1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 ab-content">
+                        <p>Hello friends!  Welcome to the cozy corner of <strong>Angel’s Lashes</strong>, where professionalism meets exceptional beauty services.</p> 
+                        <p><strong>Vivian</strong>, who has 10 years of work experience in the eyelash extension field, is dedicated to delivering outstanding results and ensuring client satisfaction. Place your trust in her expertise. With use of premium products and strict hygiene standards, the focus is to provide you with the highest quality beauty service. You are offered a wide range of services from: <ul><li>&emsp;Eyelash extension</li><li>&emsp;Waxing</li><li>&emsp;Lash lift</li></ul>Come to Angel's Lashes and  enhance your natural beauty today!</p>
+                        <div class="text-center">
+                            <a class="btn btn1 btn-primary btn-xl text-uppercase blink" href="appointment.html">BOOK NOW</a>
+                        </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
         <!-- Services-->
         <section class="page-section none-background" id="services">
             <div class="container">
@@ -54,55 +84,53 @@
                 <div class="row text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-solid fa-eye fa-stack-1x fa-inverse"></i>
-                            <i class=""></i>
-                            
+                            <a href="service.html">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-solid fa-eye fa-stack-1x fa-inverse"></i>
+                            </a>
                         </span>
-                        <h4 class="my-3">Eyelash Extension Application</h4>
+                        <h4 class="my-3">Eyelash Extension</h4>
                         <p class="text-muted">Beauty treatment where individual artificial lashes are meticulously adhered to natural lashes for enhanced length and volume.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas far fa-grin-hearts fa-stack-1x fa-inverse"></i>
+                            <a href="service.html">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-solid fa-mortar-pestle fa-stack-1x fa-inverse"></i>
+                            </a>    
                         </span>
-                        <h4 class="my-3">Lash Lift and Tint</h4>
-                        <p class="text-muted">Cosmetic treatment that curls and darkens natural lashes, enhancing their length and appearance.</p>
+                        <h4 class="my-3">Waxing</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima recusandae quos corporis est quis quam aliquam?.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-solid fa-mortar-pestle fa-stack-1x fa-inverse"></i>
+                            <a href="service.html">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas far fa-grin-hearts fa-stack-1x fa-inverse"></i>
+                            </a>
                         </span>
-                        <h4 class="my-3">Eyelash Extension Maintenance</h4>
-                        <p class="text-muted">Our Eyelash Extension Maintenance service ensures that your lashes stay beautiful, long-lasting, and perfectly maintained for an extended period.</p>
+                        <h4 class="my-3">Lash Lift</h4>
+                        <p class="text-muted">Cosmetic treatment that curls and darkens natural lashes, enhancing their length and appearance.</p>
                     </div>
                 </div>
                 <div class="text-center">
-                    <a class="btn btn1 btn-secondary btn-xl text-uppercase" href="service.html">See More</a>
+                    <a class="btn btn1 btn-secondary btn-xl text-uppercase" href="service.html">Click Here To See Detail</a>
                 </div>
             </div>
         </section>
-        <!-- About-->
-        <section class="page-section bg-light" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About Us</h2>
-                    <h3 class="section-subheading text-muted">Angel's Lashes - Where Your Beauty Is Enhanced!</h3>
-                    
-                </div>
-                <div class="row ab-description align-items-center">
-                    <div class="col-lg-6 ab-content">
-                        <p>Welcome to <strong>Angel's Lashes Extensions</strong>, where professionalism meets exceptional beauty services. With <strong>[X] years</strong> of experience, I am dedicated to delivering outstanding results and ensuring client satisfaction. Trust in my expertise, premium products, and strict hygiene standards to provide you with the highest quality beauty services.<br> Let's enhance your natural beauty and boost your confidence together. Book now and experience the professionalism and excellence of <strong>Angel's Lashes Services</strong>.</p>
-                        <div class="text-center">
-                            <a class="btn btn1 btn-primary btn-xl text-uppercase blink" href="appointment.html">BOOK NOW</a>
-                        </div>
-                        </div>
-                    <div class="col-lg-5 ab-img">
-                        <img src="assets/img/about/tool1.png" alt="" class="img-fluid">
-                    </div>
-                </div>
+
+        <!-- Gallery -->
+        <section class="page-section" id="gallery">
+            <div class="text-center container">
+                <h2 class="section-heading text-uppercase">Gallery</h2>
+                <h3 class="section-subheading text-muted">Where every blink tells a story: Explore our Lash Gallery</h3>
+            </div>
+            <div class="gallery-container">
+                <a href="gallery.html"><img src="assets/img/gallery/1.jpg" alt=""></a>
+                <a href="gallery.html"><img src="assets/img/gallery/2.JPG" alt=""></a>  
+                <a href="gallery.html"><img src="assets/img/gallery/3.png" alt=""></a>  
+                <a href="gallery.html"><img src="assets/img/gallery/4.JPG" alt=""></a>  
+                <a href="gallery.html"><img src="assets/img/gallery/5.jpg" alt=""></a>  
             </div>
         </section>
         <!-- Schedule-->
@@ -114,8 +142,10 @@
             </div>
             <div class="container">
                 <div class="col-12 d-flex justify-content-center">
-                    <p class="col-lg-11">
-                                Ready to enhance your beauty and boost your confidence? Let us take care of your beauty needs. Our team of skilled professionals is here to provide you with exceptional service and personalized treatments tailored to your unique preferences. Whether you're seeking a stunning makeover, a relaxing spa experience, or a quick touch-up, we've got you covered. </p>
+                    <div class="col-lg-8">
+                        <p>Ready to enhance your beauty and boost your confidence? With our skills we absolutely provide you with exceptional service and personalized treatments tailored to your unique preferences. Just by one single click on this website or either a call or text, Angel’s Lashes will take care your beauty needs.</p>
+                        <p class="text-center"><strong>Opening hours:</strong> 7days/week, from 9:00 am - 6:00 pm</p>
+                    </div>
                 </div>
                 <div class="text-center">
                     <a class="btn btn1 btn-primary btn-xl text-uppercase btn-animated blink" href="appointment.html">BOOK NOW</a>
@@ -178,7 +208,7 @@
         </section>
         <!-- Footer-->
         
-        <footer id ="footer">
+        <footer>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start text-sm-center" >
@@ -195,7 +225,7 @@
                             <i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div class="col-lg-4 text-lg-start text-sm-center">
+                    <div class="col-lg-4 text-lg-start text-center">
                         <ul>
                             <li>Monday 10:00 am - 6:00 pm</li>
                             <li>Tuesday 10:00 am - 6:00 pm</li>
@@ -209,13 +239,6 @@
                     <div class="col-lg-4 text-lg-start">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858.1513502117014!2d-86.16652493840505!3d41.722267972801134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8816d18e0c430f73%3A0xf9dfe1e40b164fea!2s1238%20E%20University%20Dr%2C%20Granger%2C%20IN%2046530%2C%20USA!5e0!3m2!1sen!2s!4v1696927543838!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
                     </div>
-                </div>
-            </div>
-            <div class="footer py-4 bg-light">
-                <div class="container">
-                    
-                        <div class="text-center">Copyright &copy; Angel's Lashes 2023</div>
-                    
                 </div>
             </div>
         </footer>
