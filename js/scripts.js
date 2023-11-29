@@ -20,30 +20,7 @@ window.addEventListener('DOMContentLoaded', event => {
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
 
-    //  Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            rootMargin: '0px 0px -40%',
-        });
-    };
-    //keep nav scroll spy and open services page
-    let servicePage = document.querySelector("#nav-sv");
-    servicePage.addEventListener('mouseover', function(){
-        servicePage.setAttribute("href", "service.html");
-    })
-    servicePage.addEventListener('mouseout', function(){
-        servicePage.setAttribute("href", "#service");
-    })
-    //keep nav scroll spy open schedule page
-    let schedulePage = document.querySelector("#nav-app");
-    schedulePage.addEventListener('mouseover', function(){
-        schedulePage.setAttribute("href", "appointment.html");
-    })
-    schedulePage.addEventListener('mouseout', function(){
-        schedulePage.setAttribute("href", "#schedule");
-    })
+    
     
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
