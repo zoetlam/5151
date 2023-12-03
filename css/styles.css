@@ -100,6 +100,42 @@ hr {
   border-top: 1px solid;
   opacity: 0.25;
 }
+#to-top-button {
+  display: inline-block;
+  background-color: #d63384;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#to-top-button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#to-top-button:hover {
+  cursor: pointer;
+  background-color: #D14D72;
+}
+#to-top-button:active {
+  background-color: #555;
+}
+#to-top-button.show {
+  opacity: 1;
+  visibility: visible;
+}
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -6433,7 +6469,7 @@ footer {
 }
 footer .logo{
   width: 70%;
-  margin: 0 auto;
+  margin: 20px auto ;
 }
 footer .logo img{
   width: 100%;
@@ -6467,6 +6503,7 @@ iframe {
 footer ul{
   list-style: none;
   display: block;
+  margin-left: -20px;
 }
 footer ul li{
   line-height: 2;
